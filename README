@@ -1,4 +1,14 @@
 ActsAsContactable
 =================
 
+Ruby on Rails plugin acts_as_contactable creates all the backend material needed for storing multiple addresses and phone numbers for any given model. First, run the generation task ./script/generate contactable. Then create or modify an ActiveRecord Model as such:
+
+class MyModel < ActiveRecord::Base
+   acts_as_contactable
+end
+
+Download or contribute to the project at the following git repository
+
+git://github.com/datadecisions/acts_as_contactable.git
+
 Released under the MIT license (included)
